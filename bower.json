@@ -1,0 +1,21 @@
+{
+  "name": "connext-website-2016",
+  "version": "0.1.0",
+  "homepage": "http://connext.im",
+  "authors": [
+    "Qougs Tängs <awc@utau.moe>"
+  ],
+  "main": "src/main.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6",
+    "bootstrap": "~3.3.6"
+  }
+}
