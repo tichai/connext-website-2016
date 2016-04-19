@@ -11,9 +11,11 @@ import Sched from './components/Sched.vue'
 import Pres from './components/Pres.vue'
 import Reg from './components/Reg.vue'
 
-require("jquery")
-require("bootstrap-sass")
+window.jQuery = window.$ =  require('jquery');
 
+require("bootstrap-sass")
+require("components-font-awesome")
+require("csshake")
 // Install plugins
 Vue.use(Router)
 Vue.use(Resource)

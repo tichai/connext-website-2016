@@ -13,12 +13,19 @@ module.exports =  {
   watch: true,
   module: {
     loaders: [
+        {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        loaders: [
+          'url-loader',
+          'image-webpack?{progressive:true, optimizationLevel: 7, interlaced: false, pngquant:{quality: "65-90", speed: 4}}'
+        ]
+    },
       {
         test: /\.js$/,
         // excluding some local linked packages.
         // for normal use cases only node_modules is needed.
         exclude: /node_modules|vue\/src|vue-router\//,
-        loader: 'babel'
+        loader: 'babel',
       },
       {
         test: /\.scss$/,
@@ -32,14 +39,12 @@ module.exports =  {
         test:   /\.css$/,
         loader: "style-loader!css-loader"
       },
-      {test: require.resolve('jquery'), loader: 'expose?jQuery'},
-            { test: /\.png$/, loader: "url-loader?mimetype=image/png" },
             { test: /\.svgx$/, loader: "url-loader?mimetype=image/svg+xml" },
-            {test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/font-woff"},
-            {test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/font-woff2"},
-            {test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/octet-stream"},
+            {test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, loader: "file"},
+            {test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, loader: "file"},
+            {test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "file"},
             {test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file"},
-            {test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=image/svg+xml"}
+            {test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "file"}
     ]
   },
   babel: {

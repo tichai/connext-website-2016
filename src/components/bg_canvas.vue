@@ -7,14 +7,14 @@
   var canvas = document.getElementById('bg_canvas'),
   context = canvas.getContext('2d'),
   particles = [],
-  numParticles = 20,
+  numParticles = 15,
   minDist = 100,
-  springAmount = 0.00005;
+  springAmount = 0.0000005;
   canvas.setAttribute('width', w);
   canvas.setAttribute('height', h);
   for (var size, particle, i = 0; i < numParticles; i++) {
     size = Math.random() * 10 + 2;
-    particle = new Ball(size, "#999");
+    particle = new Ball(size, "#d4d4d4");
     particle.x = Math.random() * canvas.width;
     particle.y = Math.random() * canvas.height;
     particle.vx = Math.random() * 6 - 3;
@@ -29,7 +29,7 @@ function spring(partA, partB) {
 
     if (dist < minDist) {
       var alpha = 1 - dist / minDist;
-      context.strokeStyle = utils.colorToRGB("#555", alpha);
+      context.strokeStyle = utils.colorToRGB("#aaaaaa", alpha);
       context.beginPath();
       context.moveTo(partA.x, partA.y);
       context.lineTo(partB.x, partB.y);
@@ -151,7 +151,6 @@ window.utils.captureTouch = function (element) {
     touch.y = y;
     touch.event = event;
   }, false);
-  
   return touch;
 };
 window.utils.parseColor = function (color, toNumber) {
@@ -202,8 +201,8 @@ window.utils.intersects = function (rectA, rectB) {
 };
 //###[ball.js]###
 function Ball (radius, color) {
-  if (radius === undefined) { radius = 60; }
-  if (color === undefined) { color = "#ff0000"; }
+  if (radius === undefined) { radius = 80; }
+  if (color === undefined) { color = "#555"; }
   this.x = 0;
   this.y = 0;
   this.radius = radius;

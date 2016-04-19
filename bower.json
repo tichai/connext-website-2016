@@ -16,6 +16,9 @@
   ],
   "dependencies": {
     "bootstrap-sass": "~3.3.6",
-    "bootstrap": "~3.3.6"
+    "bootstrap": "~3.3.6",
+    "jquery": "^2.2.3",
+    "components-font-awesome": "^4.5.0",
+    "csshake": "*"
   }
 }
