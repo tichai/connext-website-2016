@@ -5,7 +5,7 @@
 </script>
 
 <template>
-<p class="footer">本站不保证在老旧设备上的体验.<br />Copyleft under MIT lissence. <br />Designed by Awc, made with <i class="fa fa-heart"></i>. </p>
+<p class="footer">本站不保证在老旧设备上的体验.<br />Copyleft under MIT licence. <br />Designed by Awc, made with <i class="fa fa-heart"></i>. </p>
 </template>
 <style lang="sass">
 .footer {
