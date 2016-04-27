@@ -32,6 +32,10 @@ module.exports =  {
         loaders: ['style', 'css', 'sass']
       },
       {
+        test: /\.styl$/,
+        loader: 'css-loader!stylus-loader?paths=node_modules/bootstrap-stylus/stylus/'
+      },
+      {
         test: /\.vue$/,
         loader: 'vue'
       },

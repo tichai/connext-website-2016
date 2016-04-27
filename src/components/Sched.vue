@@ -6,7 +6,6 @@
 
 <template>
   <div class="row">
-    <bg_canvas></bg_canvas>
     <div class="medium-6 medium-offset-3 columns">
       <h2>About US</h2>
       <p>

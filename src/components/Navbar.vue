@@ -23,7 +23,6 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a v-link="{name: 'home'}">会议概览</a></li>
-        <li><a v-link="{name: 'sched'}">日程安排</a></li>
         <li><a v-link="{name: 'pres'}">演讲嘉宾</a></li>
         <li><a v-link="{name: 'about'}">关于我们</a></li>
         <li><a v-link="{name: 'reg'}">讲者注册</a></li>
@@ -36,7 +35,7 @@
 <style>
 nav {
   z-index: 1000 !important;
-  opacity: .9
+  opacity: 1
 }
 .navbar-brand img{
   height: 20px
