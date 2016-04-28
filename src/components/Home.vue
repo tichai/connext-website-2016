@@ -235,6 +235,10 @@ setTimeout(function(){$("#app > div.container.index > div.slogan > div").css("op
         text-decoration: none;
         font-size: 1.2em;
         letter-spacing: 1rem;
+        transition: color 0.5s;
+        &:hover {
+          color: #229ebe !important;
+        }
       }
     }
     p {
