@@ -107,158 +107,7 @@ setTimeout(function(){$("#app > div.container.index > div.slogan > div").css("op
     opacity: 1;
   }
 }
-@keyframes shakee {
-2% {
-    transform: translate(1px, 0) rotate(0);
-}
-4% {
-    transform: translate(4px, 0) rotate(0);
-}
-6% {
-    transform: translate(7px, 0) rotate(0);
-}
-8% {
-    transform: translate(-1px, 0) rotate(0);
-}
-10% {
-    transform: translate(-1px, 0) rotate(0);
-}
-12% {
-    transform: translate(1px, 0) rotate(0);
-}
-14% {
-    transform: translate(-3px, 0) rotate(0);
-}
-16% {
-    transform: translate(-8px, 0) rotate(0);
-}
-18% {
-    transform: translate(-9px, 0) rotate(0);
-}
-20% {
-    transform: translate(-3px, 0) rotate(0);
-}
-22% {
-    transform: translate(-9px, 0) rotate(0);
-}
-24% {
-    transform: translate(1px, 0) rotate(0);
-}
-26% {
-    transform: translate(10px, 0) rotate(0);
-}
-28% {
-    transform: translate(9px, 0) rotate(0);
-}
-30% {
-    transform: translate(-2px, 0) rotate(0);
-}
-32% {
-    transform: translate(9px, 0) rotate(0);
-}
-34% {
-    transform: translate(2px, 0) rotate(0);
-}
-36% {
-    transform: translate(-5px, 0) rotate(0);
-}
-38% {
-    transform: translate(3px, 0) rotate(0);
-}
-40% {
-    transform: translate(0px, 0) rotate(0);
-}
-42% {
-    transform: translate(4px, 0) rotate(0);
-}
-44% {
-    transform: translate(-7px, 0) rotate(0);
-}
-46% {
-    transform: translate(-4px, 0) rotate(0);
-}
-48% {
-    transform: translate(9px, 0) rotate(0);
-}
-50% {
-    transform: translate(-6px, 0) rotate(0);
-}
-52% {
-    transform: translate(-3px, 0) rotate(0);
-}
-54% {
-    transform: translate(3px, 0) rotate(0);
-}
-56% {
-    transform: translate(6px, 0) rotate(0);
-}
-58% {
-    transform: translate(-5px, 0) rotate(0);
-}
-60% {
-    transform: translate(-6px, 0) rotate(0);
-}
-62% {
-    transform: translate(8px, 0) rotate(0);
-}
-64% {
-    transform: translate(8px, 0) rotate(0);
-}
-66% {
-    transform: translate(-7px, 0) rotate(0);
-}
-68% {
-    transform: translate(8px, 0) rotate(0);
-}
-70% {
-    transform: translate(6px, 0) rotate(0);
-}
-72% {
-    transform: translate(5px, 0) rotate(0);
-}
-74% {
-    transform: translate(6px, 0) rotate(0);
-}
-76% {
-    transform: translate(7px, 0) rotate(0);
-}
-78% {
-    transform: translate(-2px, 0) rotate(0);
-}
-80% {
-    transform: translate(1px, 0) rotate(0);
-}
-82% {
-    transform: translate(0px, 0) rotate(0);
-}
-84% {
-    transform: translate(-6px, 0) rotate(0);
-}
-86% {
-    transform: translate(0px, 0) rotate(0);
-}
-88% {
-    transform: translate(1px, 0) rotate(0);
-}
-90% {
-    transform: translate(-1px, 0) rotate(0);
-}
-92% {
-    transform: translate(1px, 0) rotate(0);
-}
-94% {
-    transform: translate(4px, 0) rotate(0);
-}
-96% {
-    transform: translate(1px, 0) rotate(0);
-}
-98% {
-    transform: translate(3px, 0) rotate(0);
-}
-0%, 100% {
-    transform: translate(0, 0) rotate(0);
-}
-}
+
 .tianyu {
   background: #0A4356;
   color: #0A4356;
@@ -320,6 +169,9 @@ setTimeout(function(){$("#app > div.container.index > div.slogan > div").css("op
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
     animation-delay: 4s;
+    @media screen and (max-width: 350px) {
+      margin: 0;
+    }
     p {
       background: #ECEFF1;
       min-width: 10%;
@@ -495,7 +347,8 @@ setTimeout(function(){$("#app > div.container.index > div.slogan > div").css("op
     left: 0;
     right: 0;
     margin: auto;
-    height: 70%;
+    height: 100%;
+    transform: translateY(15vh);
     overflow: visible;
     -ms-overflow-style: none;
     overflow:-moz-scrollbars-none;
@@ -508,6 +361,9 @@ setTimeout(function(){$("#app > div.container.index > div.slogan > div").css("op
     margin: auto;
     margin-top: 5vh;
     width: 70%;
+    @media screen and (max-width: 350px) {
+      margin-top: 3vh;
+    }
     img {
       opacity: 1;
       width: 100%;
