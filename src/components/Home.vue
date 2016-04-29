@@ -223,7 +223,6 @@ setTimeout(function(){$("#app > div.container.index > div.slogan > div").css("op
     font-size: 1.3rem;
     margin-bottom: 10vh;
     text-align: left;
-    font-weight: lighter;
     .aller {
       margin-top: 3rem;
       text-align: center;
