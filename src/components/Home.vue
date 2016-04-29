@@ -39,7 +39,7 @@ setTimeout(function(){$("#app > div.container.index > div.slogan > div").css("op
         <p>:title => [:第二届新一代青少年科技大会, :"Connext 2016"] # <img src="../lx-01.png"></p>
         <p>:time => [:"2016 年 7 月 23 日", :"2016 年 7 月 24 日"] # <i class="fa fa-clock-o" aria-hidden="true"> </i></p>
         <p>:location => :杭州市余杭区梦想小镇氪空间 (近阿里巴巴总部) # <i class="fa fa-location-arrow" aria-hidden="true"> </i></p>
-        <p class="arrow shake-slow shake-vertical-slow shake-vertical shake-constant shake-constant--hover"><i class="fa fa-angle-double-down" aria-hidden="true"></i></p>
+        <a href="#" class="scroll"><p class="arrow shake-slow shake-vertical-slow shake-vertical shake-constant shake-constant--hover"><i class="fa fa-angle-double-down" aria-hidden="true"></i></p></a>
       </div>
     </div>
     <div class="tianyu">北京海淀！北京海淀！中国最大青少年科技向活动 Connext 倒闭啦！王八蛋老板房天语带着他小姨子 Linghein Ho 跑啦！我们没有办法，只有敲开仓库，拿着 Mi Band 换吃的！原价 79 的 Mi Band，现在免费送！只要提供一顿饭即可！房天语你不是人！你还我们血汗钱！</div>

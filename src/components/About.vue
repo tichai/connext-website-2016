@@ -27,7 +27,7 @@
         <p class="team-title">Linghein H.</p>
         <div class="team-description">
           <p>加拿大滑铁卢大学（University of Waterloo）本科生；</p>
-          <p>拥有多个科技活动的组织经验。</p>
+          <p>拥有丰富的人生经验，不知道比奥软高到哪里去了。</p>
         </div>
       </li>
       <li class="team-list-item">
