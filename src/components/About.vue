@@ -90,26 +90,26 @@
       font-weight bold
       margin-bottom 5vh
     p.line
-      font-size 1.45rem
+      font-size 1.35rem
       text-align center
       line-height 1.8rem
       color #607D8B
     h2.subtitle
       font-size 2vmax !important
       text-align center
-      padding-top 3vh
+      padding-top 5vh
       margin 0
       color #888
   .team-list
     @media screen and (max-width: 480px)
-      width: 100%;
-      margin: 3vh 0 10vh;
-      padding: 0;
-    text-align: left;
-    width: 70vw;
-    margin: 3vh 5vw 10vh;
-    margin-bottom: 10vh;
-    display: block;
+      width 100%
+      margin 3vh 0 10vh
+      padding 0
+    text-align left
+    width 70vw
+    margin 3vh 5vw 10vh
+    margin-bottom 10vh
+    display block
     .team-list-item
       display block
       min-height 10rem
@@ -125,7 +125,7 @@
         font-weight bold
         letter-spacing .2rem
       .team-description
-        max-width 75%
+        max-width 70%
         p
           font-size 1.25rem
           color #607d8b
@@ -145,7 +145,7 @@
     text-align center
     h1.headline
       font-size 2vmax
-      margin-top -4rem
+      margin-top -2rem
       text-align center
     p.line
       font-size 1.25rem
@@ -155,9 +155,17 @@
       img
         width 26rem
     .aller
-      margin-top: 8rem
-      text-align: center
+      @media screen and (max-width: 425px)
+        width 100%
+        margin 6vh 0 0
+        padding-top 3vh
+        padding-bottom 5vh
+      margin-top 8rem
+      text-align center
       a
+        @media screen and (max-width: 425px)
+          font-size 3.2vmin
+          letter-spacing 0.4rem
         color #222 !important
         background #fff
         padding 1.6rem 3rem
@@ -167,6 +175,8 @@
         letter-spacing .7rem
         transition line-height .8s, color .5s
         &:hover
+          @media screen and (max-width: 425px)
+            line-height 0
           line-height 4.85rem
           color #229ebe !important
     .wave
