@@ -38,6 +38,15 @@
           <p>语音学、音韵学爱好者，开源歌声合成软件 Rocaloid 开发组成员。</p>
         </div>
       </li>
+      <li class="team-list-item">
+        <img class="team-avatar" src="../avatars/placeholder.png" />
+        <p class="team-title">Yuze F.</p>
+        <div class="team-description">
+          <p>昵称小傅Fox，东北育才中学高中生，学生开发者；</p>
+          <p>曾获信息学竞赛辽宁一等奖，参与项目「Rap-ID」获创新大赛全国二等奖。</p>
+          <p>Connext 沈阳地区负责人。</p>
+        </div>
+      </li>
     <ul>
   </section>
   <section class="c2015">

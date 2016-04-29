@@ -42,7 +42,7 @@ setTimeout(function(){$("#app > div.container.index > div.slogan > div").css("op
         <p class="arrow shake-slow shake-vertical-slow shake-vertical shake-constant shake-constant--hover"><i class="fa fa-angle-double-down" aria-hidden="true"></i></p>
       </div>
     </div>
-    <div class="tianyu">王八蛋Tianyu，还我血汗钱!</div>
+    <div class="tianyu">北京海淀！北京海淀！中国最大青少年科技向活动 Connext 倒闭啦！王八蛋老板房天语带着他小姨子 Linghein Ho 跑啦！我们没有办法，只有敲开仓库，拿着 Mi Band 换吃的！原价 79 的 Mi Band，现在免费送！只要提供一顿饭即可！房天语你不是人！你还我们血汗钱！</div>
   </div>
   <div class="fullscreen-wrapper">
     <div class="container index-content">
