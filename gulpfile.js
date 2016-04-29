@@ -4,6 +4,8 @@ var watch = require('gulp-watch');
 var batch = require('gulp-batch');
 var connect = require('gulp-connect');
 var copy = require('gulp-copy');
+var uglify = require('gulp-uglifyjs');
+
 
 // Run webpack
 gulp.task('webpack', function(){
@@ -21,11 +23,20 @@ gulp.task('webserver', function() {
   });
 });
 
+
 // Copy index.html file
 gulp.task('build.index', function(){
   return gulp.src('./src/index.html')
     .pipe(gulp.dest('./dist'));
 });
 
+
+gulp.task('uglify', function() {
+  gulp.src('dist/dist/app.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('dist/dist/'))
+});
+
 // Default task
 gulp.task('default', ['webpack', 'webserver', 'build.index']);
+gulp.task('fuck', ['uglify']);
