@@ -99,7 +99,7 @@ setTimeout(function(){$("#app > div.container.index > div.slogan > div").css("op
     </div>
   </div>
 </template>
-<style lang="sass">
+<style lang="stylus">
 @keyframes fadeIn {
   0% {
     opacity: 0;

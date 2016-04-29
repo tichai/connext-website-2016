@@ -249,7 +249,7 @@ window.onload = function() {
   <canvas id="bg_canvas"></canvas>
 </template>
 
-<style lang="sass">
+<style>
 @keyframes fadeIn_bg {
   0% {
     opacity: 0;

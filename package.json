@@ -35,8 +35,6 @@
     "gulp-watch": "^4.3.5",
     "html-loader": "^0.4.0",
     "image-webpack-loader": "^1.7.0",
-    "node-sass": "^3.4.2",
-    "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
     "vue-hot-reload-api": "^1.2.2",
@@ -44,19 +42,25 @@
     "vue-loader": "^7.2.0",
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.13.0",
-    "webpack-stream": "^3.1.0"
+    "webpack-stream": "^3.1.0",
+    "csshake": "^1.5.0"
   },
   "dependencies": {
+    "bootstrap": "^3.3.6",
+    "bootstrap-webpack": "0.0.5",
     "bower": "^1.7.9",
-    "css-loader": "^0.21.0",
-    "csshake": "^1.5.0",
+    "exports-loader": "^0.6.3",
+    "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
+    "imports-loader": "^0.6.5",
+    "less": "^2.6.1",
+    "less-loader": "^2.2.3",
     "sass-resources-loader": "^1.0.2",
     "style-loader": "^0.13.1",
-    "stylus": "^0.54.2",
+    "stylus": "^0.54.5",
     "stylus-loader": "^2.0.0",
-    "vue": "^1.0.11",
-    "vue-resource": "^0.6.0",
-    "vue-router": "^0.7.7"
+    "vue": "^1.0.21",
+    "vue-resource": "^0.6.1",
+    "vue-router": "^0.7.13"
   }
 }

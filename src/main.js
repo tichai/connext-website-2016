@@ -1,4 +1,10 @@
-import scss from './app.scss'
+
+window.jQuery = window.$ =  require('jquery');
+require("bootstrap-webpack")
+require("font-awesome-stylus")
+require("csshake")
+
+//import stylus from './app.styl'
 
 import Vue from 'vue'
 import Resource from 'vue-resource'
@@ -11,11 +17,6 @@ import Sched from './components/Sched.vue'
 import Pres from './components/Pres.vue'
 import Reg from './components/Reg.vue'
 
-window.jQuery = window.$ =  require('jquery');
-
-require("bootstrap-sass")
-require("components-font-awesome")
-require("csshake")
 // Install plugins
 Vue.use(Router)
 Vue.use(Resource)

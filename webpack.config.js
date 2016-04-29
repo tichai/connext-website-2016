@@ -1,5 +1,6 @@
 var BowerWebpackPlugin = require("bower-webpack-plugin");
 var webpack = require('webpack')
+var path = require('path');
 
 module.exports =  {
   entry: [
@@ -27,13 +28,10 @@ module.exports =  {
         exclude: /node_modules|vue\/src|vue-router\//,
         loader: 'babel',
       },
-      {
-        test: /\.scss$/,
-        loaders: ['style', 'css', 'sass']
-      },
+
       {
         test: /\.styl$/,
-        loader: 'css-loader!stylus-loader?paths=node_modules/bootstrap-stylus/stylus/'
+        loader: 'style-loader!css-loader!stylus-loader'
       },
       {
         test: /\.vue$/,
@@ -56,6 +54,7 @@ module.exports =  {
     plugins: ['transform-runtime']
   },
   resolve: {
+    root: path.resolve(__dirname),
     modulesDirectories: ['node_modules']
   },
   plugins: [new BowerWebpackPlugin()]
