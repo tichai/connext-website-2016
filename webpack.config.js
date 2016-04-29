@@ -57,6 +57,7 @@ module.exports =  {
     root: path.resolve(__dirname),
     modulesDirectories: ['node_modules']
   },
-  plugins: [new BowerWebpackPlugin()]
+  plugins: [new BowerWebpackPlugin(),new webpack.optimize.UglifyJsPlugin([])
+]
 
 }
