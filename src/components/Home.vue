@@ -92,7 +92,7 @@ setTimeout(function(){$("#app > div.container.index > div.slogan > div").css("op
             <li>我们提供了 23 张免费门票。介绍自己并告诉我们你对本次活动的期待，写信给 <a href="mailto:free16@connext.im">free16@connext.im</a> 争取一个名额。</li>
           </ul>
         </blockquote>
-        <p class="aller disabled"><a href="javascript:;"><i class="fa fa-angle-double-right" aria-hidden="true"></i>跳转到活动行</a></p>
+        <p class="aller"><a href="http://www.huodongxing.com/event/2330305833500" target="_blank"><i class="fa fa-angle-double-right" aria-hidden="true"></i>跳转到活动行</a></p>
       </div>
       <h3 style="display: none;">赞助商</h3>
     </div>

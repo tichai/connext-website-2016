@@ -10,7 +10,7 @@
       <img src="../logo0-01.png" />
     </div>
     <h1 class="headline">新一代青少年科技大会</h1>
-    <p class="line">用分享与启发更多青少年科技人。</p>
+    <p class="line">用分享与创造启发更多青少年科技人。</p>
     <p class="line">扩展青少年互联网生态，为青少年的科技之路增光添彩。</p>
     <h2 class="subtitle">#主办团队</h2>
     <ul class="team-list">
@@ -39,7 +39,7 @@
         </div>
       </li>
       <li class="team-list-item">
-        <img class="team-avatar" src="../avatars/placeholder.png" />
+        <img class="team-avatar" src="../avatars/yuze_fu.jpg" />
         <p class="team-title">Yuze F.</p>
         <div class="team-description">
           <p>昵称小傅Fox，东北育才中学高中生，学生开发者；</p>
