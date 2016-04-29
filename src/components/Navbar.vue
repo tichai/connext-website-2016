@@ -26,7 +26,7 @@
         <li><a v-link="{name: 'pres'}">演讲嘉宾</a></li>
         <li><a v-link="{name: 'about'}">关于我们</a></li>
         <li><a v-link="{name: 'reg'}">讲者注册</a></li>
-        <li><a href="http://shenyang.connextconf.org/" target="_blank">@Shenyang</a></li>
+        <li style="display: none;"><a href="http://shenyang.connextconf.org/" target="_blank">@Shenyang</a></li>
       </ul>
 
     </div><!-- /.navbar-collapse -->
